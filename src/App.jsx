@@ -4,7 +4,7 @@ import Navbar from "./components/navbar";
 import HeroSection from "./components/Hero";
 import ChatWrapper from "./components/chatWrapper";
 import CommunityForum from "./components/communityChat";
-
+import ProfilesPage from "./components/CommDoc";
 
 const App = () => {
   return (
@@ -12,7 +12,8 @@ const App = () => {
       {/* <Navbar />
       <HeroSection />
       <ChatWrapper /> */}
-      <CommunityForum/>
+      {/* <CommunityForum/> */}
+      <ProfilesPage />
     </Router>
   );
 };
