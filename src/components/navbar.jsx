@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import { Menu, X, Heart, Shield, MessagesSquare } from "lucide-react"
-import logo from "../assets/logo.png"
+import logo from "../assets/logo.jpg"
 
 const navItems = [
     {

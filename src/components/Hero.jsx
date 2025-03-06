@@ -73,8 +73,8 @@ const HeroSection = () => {
 
                 <div className="hidden lg:flex justify-center items-center">
                     {/* You'll replace this with your own image */}
-                    <div className="w-full max-w-md h-[500px] bg-[#264653]/30 rounded-2xl flex justify-center items-center text-[#A7C957] text-xl font-semibold">
-                        <img src={drug1} alt="" />
+                    <div className="w-full max-w-md h-[300px] bg-[#264653]/30 rounded-2xl flex justify-center items-center text-[#A7C957] text-xl font-semibold">
+                        <img src={drug1} alt="" className='rounded-md'/>
                     </div>
                 </div>
             </div>

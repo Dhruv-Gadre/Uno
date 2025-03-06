@@ -9,9 +9,10 @@ import CommunityForum from "./components/communityChat";
 const App = () => {
   return (
     <Router>
-      <Navbar />
+      {/* <Navbar />
       <HeroSection />
-      <ChatWrapper />
+      <ChatWrapper /> */}
+      <CommunityForum/>
     </Router>
   );
 };
